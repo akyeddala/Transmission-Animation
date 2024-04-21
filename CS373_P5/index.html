@@ -1,0 +1,44 @@
+<html>
+	<head><title>Project 5 - Hierarchical Scene</title><meta charset="utf-8"/></head>
+	<style>
+	#msg {
+		position: absolute;
+		color: white;
+		font-family: monospace;
+		font-size: 16px;
+		top: 20px;
+		left: 20px;
+		background-color: #202020;
+	}
+	#window {
+		border: 1px solid gray;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 800px;
+		height: 600px;
+		background-color: #202020;
+	}	
+	</style>
+	<body>
+		<script src="three.min.js"></script>
+		<script src="OrbitControls.js"></script>
+		<script src="simpleOBJMeshLoader.js"></script>
+		<script src="models/MainShaft.js"></script>
+		<script src="models/DrivenShaft.js"></script>
+		<script src="models/FirstGearD.js"></script>
+		<script src="models/SecondGearD.js"></script>
+		<script src="models/SecondGearM.js"></script>
+		<script src="models/ThirdGearD.js"></script>
+		<script src="models/ThirdGearM.js"></script>
+		<script src="models/FourthGearD.js"></script>
+		<script src="models/FourthGearM.js"></script>
+		<script src="models/FifthGearD.js"></script>
+		<script src="models/FifthGearM.js"></script>
+		<script src="models/gearbox.js"></script>
+		<!--include any models you want to use here before hierarchical.js-->
+		<script src="hierarchical.js"></script>
+		<div id="window" width=1000 height=800></div>
+		<div id="msg" width=300>animation_speed = 1.0</div>
+	</body>
+</html>
